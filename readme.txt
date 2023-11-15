@@ -1,4 +1,4 @@
-# @Aurthor Kim Min-seob
+# @Aurthor KMS
 # @Since 2023-10-01
 # @Version 0.0.6
 # @Changes
