@@ -1,4 +1,4 @@
-# @Aurthor Kim Min-seob
+# @Aurthor KMS
 # @Since 2023-10-01
 # @Version 0.0.6
 # @Changes
@@ -33,6 +33,7 @@
 #   - 이에 따라 메시지 받는 절차가 변경됨
 # - 사물 삭제 기능 추가
 # - DB Request 기능 구현 (삭제 요청 처리)
+# - Mqtthub_object 클래스 del_object() 메서드 추가 (object_list.json 에서 사물 정보 제거)
 
 
 main file -> mqtt_hub.py

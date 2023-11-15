@@ -113,18 +113,10 @@ class Mqtthub_object:
     def get_obj_ID(self):
         return self.__id
     
-    # 2023-10-05 수정
-    # description:
-    # 수정전 #
-    # id_init에 json으로 불러온 딕셔너리의 길이를 더하는 식으로 작동했었음
-    # idList 키가 추가되면서 0번 이후 2번으로 가는 버그가 있었음
-    # 거기에 중간에 삭제되거나 하면 중복 가능성이 있었음
-    # return str(int(valid_format['id_init']) + len(objlist))
     # 수정후 #
     # 마지막 ID 번호 +1 부터 순서대로 중복 검사를 함
     # ID에 알파벳이 들어가는 경우는 가정하지 않았음
     # ID가 스킵된 경우는 고려하지 않고 IDList의 마지막 원소를 기준으로 잡음
-
     def __set_ID(self):
         # read object file and calculate next ID
         try:
