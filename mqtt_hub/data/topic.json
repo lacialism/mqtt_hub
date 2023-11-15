@@ -1,0 +1,13 @@
+{
+    "_File Comment": "This file saves topics",
+    "common": "",
+    "subscribe": "/dev/new",
+    "publish": "/dev/new/ack",
+    "report": "/dev/report",
+    "control": "/dev/control",
+    "dbQuery": "/db/query",
+    "dbRequest": "/db/request",
+    "dbAdd": "add",
+    "dbDel": "del",
+    "dbSyn": "syn"
+}

@@ -1,0 +1,7 @@
+{
+    "File Comment" : "save object data's format",
+
+    "ID Format Comment" : "a -> a-z : char data, 0 -> 0-9 : integer data, only number is available in this version.",
+    "id_format" : "00000000",
+    "id_init" : "00000000"
+}

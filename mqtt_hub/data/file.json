@@ -1,0 +1,6 @@
+{
+    "broker_info" : "data/broker_info.json",
+    "object_list" : "data/object_list.json",
+    "object_data_format" : "data/object_data_format.json",
+    "topic" : "data/topic.json"
+}
