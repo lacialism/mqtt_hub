@@ -17,9 +17,12 @@ def read_key():
         with open(dirPath+"/secretism.bin", "rb") as f:
             key = f.read()
     except FileNotFoundError:
-        key = generate_key()
+        print('key problem')
+        return
     if(sys.getsizeof(key) != 65):
         key = generate_key()
+        print('key problem')
+        return
     return key
 
 def check_key(username, pw):
