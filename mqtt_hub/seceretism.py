@@ -74,8 +74,3 @@ def unsecretism(cipher_text, username, pw):
     plain_text = unpad(decrypted_data, block_size).decode('utf8')
 
     return plain_text
-
-def __eg():
-    cipher=seceretism('hellow123 !@#$')
-    plain=unsecretism(cipher)
-    print(plain)

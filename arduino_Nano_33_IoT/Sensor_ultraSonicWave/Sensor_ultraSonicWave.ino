@@ -10,7 +10,7 @@
 #define PASSWORD    ""
 // broker info
 #define MQTT_IP     ""
-#define MQTT_PORT   51213 // default 1883
+#define MQTT_PORT   1883 // default 1883
 #define USERNAME    ""
 #define PW          ""
 
